@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Fused Location API android</string>
+    <string name="location_permission_not_granted" />
+    <string name="enable_gps" />
+    <string name="required_for_this_app" />
+    <string name="enable_now" />
+</resources>

@@ -1,0 +1,2 @@
+rootProject.name = "Fused Location API android"
+include ':app'
