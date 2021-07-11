@@ -1,5 +1,3 @@
-
-
 # Fused-Location-API-Android
  How to use Fused Location API to fetch the current location in Android
  
