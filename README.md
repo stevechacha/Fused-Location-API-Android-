@@ -6,9 +6,10 @@
 
 To use location services, you need to add permission for location in the AndroidManifest.xml file. You can either use ACCESS_COARSE_LOCATION or ACCESS_FINE_LOCATION, based on your use:
 
+```Kotlin
 
 <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
- 
+```
  
  #### ACCESS_COARSE_LOCATION 
  By adding this in your application, allows you to use WIFI or mobile cell data(or both) to determine the device’s location. The approximation by using this permission is close to the city level.
@@ -24,12 +25,12 @@ This permission was introduced in Android 10. So, for Android 10 or higher, if y
 
 In order to use the Fused Location API, you need to add the dependency of location. So, in your app-level build.gradle file, add the below dependency:
 
-
+```kotlin
 
 dependencies {
-    ...
+    
     implementation 'com.google.android.gms:play-services-location:17.0.0'
 }
 
-
+```
 
